@@ -13,9 +13,9 @@ y<!doctype html>
 		<button onclick="close_sidebar()" class="sidebar-menu-button close-sidebar-button">&times;</button>
 		<a href="#topofpage" class="sidebar-menu-button mainbutton">Home</a>
 		<a href="#about" class="sidebar-menu-button mainbutton">Introduction</a>
-		<a href="#academicinfo" class="sidebar-menu-button mainbutton">Methodology</a>
-		<a href="#industryexperience" class="sidebar-menu-button mainbutton">Industry Experience</a>
-		<a href="#sap" class="sidebar-menu-button mainbutton">Skills and Proficiencies</a>
+		<a href="#Methods" class="sidebar-menu-button mainbutton">Methodology</a>
+		<a href="#Results" class="sidebar-menu-button mainbutton">Results</a>
+		<a href="#App Development" class="sidebar-menu-button mainbutton">Programs used for App Development</a>
 		<a href="#credits" class="sidebar-menu-button mainbutton">Acknowledgements</a>
 		<div class="other-sidebar-info">
 			<table class="sidebar-contact-table"> 
@@ -68,12 +68,10 @@ y<!doctype html>
 		planning, data acquisition, and application development, followed by the evaluation of the app. 
 		</p>
 	</div>
-	
-	<div class="bar"><h3>Application Development</h3></div>
 
 	<!--Skills and Proficiencies table-->
-	<div class="bar" style="top:57px" id="sap"><h4>Programs/Software used to develop this application</h4></div> <!-- #ID# #SKILLS# -->
- 	   <div class="skills">
+	<div class="bar" style="top:57px" id="App Development"><h3>Programs/Software used to develop this application</h3></div> <!-- #ID# #SKILLS# -->
+ 	   <div class="App Development">
        		 <table class="icontable">
            	 <tr>
                	 <td><img src="AutoCAD.png" class="iconimages"></td>
@@ -88,10 +86,60 @@ y<!doctype html>
 				<td>QGIS</td>
             	</tr>
       	        </table>
-	    
- 	   </div>
+
+<div class="bar" style="top:57px" id="Func. Requirements"><h3>Project Functional Requirements</h3></div> <!-- #ID# #SKILLS# -->
+ 	   <div class="Func. Requirements">
+    <table>
+        <tr>
+            <th>Functional Requirements</th>
+            <th>Achieved? (Y/N)</th>
+            <th>Evaluation Notes</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Real-time data updates</td>
+            <td>Y</td>
+            <td>Enabled real-time asset monitoring when connectivity was stable, but degraded in low-connectivity areas.</td>
+            <td>Allows users to monitor live changes in assets, infrastructure, etc.</td>
+        </tr>
+        <tr>
+            <td>GPS and drone imagery integration</td>
+            <td>Y</td>
+            <td>Successfully integrated for high spatial accuracy.</td>
+            <td>Provides spatial accuracy and high-resolution imagery for field navigation.</td>
+        </tr>
+        <tr>
+            <td>High-resolution basemap</td>
+            <td>Y</td>
+            <td>GeoTIFF basemap loaded efficiently, though slow in low-connectivity environments.</td>
+            <td>Offers detailed visual references for farm infrastructure and layout.</td>
+        </tr>
+        <tr>
+            <td>Cross-device compatibility</td>
+            <td>Y</td>
+            <td>Functional across desktops and tablets, with no significant performance differences noted.</td>
+            <td>Ensures usability across desktops and tablets.</td>
+        </tr>
+        <tr>
+            <td>Offline data synchronisation</td>
+            <td>N</td>
+            <td>Offline functionality was not implemented, affecting usability in areas with poor internet access.</td>
+            <td>Allows the app to function with limited internet connectivity.</td>
+        </tr>
+    </table>
+</div>
+
+<div class="description">
+    <h2>Additional Information</h2>
+    <p>This table summarises the core functional requirements achieved in the Capstone Project, focusing on real-time data updates, GPS integration, high-resolution basemap accessibility, and cross-device compatibility. While most requirements were met, offline data synchronisation remains a future objective to enhance functionality in low-connectivity environments.</p>
+    
+    <p>During this project, the focus was on achieving real-time data accuracy and maintaining high-resolution basemaps for farm layout references. We integrated GPS and drone data to ensure spatial accuracy and provide detailed visual references. Cross-device compatibility was also achieved, allowing users to access the app on both desktops and tablets seamlessly.</p>
+    
+    <p>For future development, implementing offline data synchronisation will be a priority to improve accessibility and usability in remote agricultural settings where internet connectivity is limited. By addressing this, we aim to create a more robust tool that supports farmers and land managers in various environments.</p>
+</div>   
+ 	 </div>
 	
-	<!--Method-->
+	<!--Results-->
 	<div class="intro bar" id="Results"><h2>Results</h2></div> <!-- #ID# #INTROHEADING# Change the text of the introduction bar here-->
 	<div class="Results">
 		XXXX
