@@ -199,6 +199,9 @@ h1 {
 .contactimages{
 	width: auto;
 	height: 60px;	
+   	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
 }
 .compilationinformation{
 	right: 0;
