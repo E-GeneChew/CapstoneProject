@@ -189,11 +189,12 @@ h1 {
 	height: 250px;
 }
 .contacttable{
+	width: 80%;
 	color: white;
+	background-color: rgb(115,110,110)
 	vertical-align: middle;
 	margin-top: 0px;
 	float: left;
-	width: 80%;
 	table-layout: fixed;
 }
 .contactimages{
