@@ -189,20 +189,16 @@ h1 {
 	height: 250px;
 }
 .contacttable{
-	width: 80%;
 	color: white;
-	background-color: rgb(115,110,110)
 	vertical-align: middle;
 	margin-top: 0px;
 	float: left;
+	width: 80%;
 	table-layout: fixed;
 }
 .contactimages{
 	width: auto;
 	height: 60px;	
-   	display: block;
-    	margin-left: auto;
-    	margin-right: auto;
 }
 .compilationinformation{
 	right: 0;
@@ -215,7 +211,6 @@ h1 {
 	width: 20%;
 	padding-top:30px;
 }
-
 
 /*Industry Information*/
 
